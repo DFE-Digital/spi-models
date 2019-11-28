@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Dfe.Spi.Models</name>
+    </assembly>
+    <members>
+        <member name="T:Dfe.Spi.Models.Establishment">
+            <summary>
+            Represents an establishment; a learning provider.
+            </summary>
+        </member>
+        <member name="P:Dfe.Spi.Models.Establishment.Name">
+            <summary>
+            Gets or sets the name of the establishment.
+            </summary>
+        </member>
+    </members>
+</doc>
