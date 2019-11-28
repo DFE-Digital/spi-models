@@ -5,7 +5,7 @@
     /// <summary>
     /// A governer.
     /// </summary>
-    public class Governer : ModelsBase
+    public class Governor : ModelsBase
     {
         /// <summary>
         /// Gets or sets a set of <see cref="LearningProvider" /> instances.

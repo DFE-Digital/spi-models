@@ -8,9 +8,9 @@
     public class LearningProvider : ModelsBase
     {
         /// <summary>
-        /// Gets or sets a set of <see cref="Governer" /> instances.
+        /// Gets or sets a set of <see cref="Governor" /> instances.
         /// </summary>
-        public IEnumerable<Governer> Governers
+        public IEnumerable<Governor> Governors
         {
             get;
             set;
