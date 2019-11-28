@@ -6,6 +6,7 @@ pool:
 
 steps:
   - task: DotNetCoreCLI@2
+    displayName: 'Build Models Library'
     inputs:
       command: 'build'
       projects: 'src/Dfe.Spi.Models/Dfe.Spi.Models/Dfe.Spi.Models.csproj'
