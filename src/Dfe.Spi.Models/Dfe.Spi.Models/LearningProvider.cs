@@ -15,5 +15,41 @@
             get;
             set;
         }
+
+        /// <summary>
+        /// Gets or sets the legal name of the entity.
+        /// </summary>
+        public string LegalName
+        {
+            get;
+            set;
+        }
+
+        /// <summary>
+        /// Gets or sets the URN of the entity.
+        /// </summary>
+        public string Urn
+        {
+            get;
+            set;
+        }
+
+        /// <summary>
+        /// Gets or sets the UKPRN of the entity.
+        /// </summary>
+        public string Ukprn
+        {
+            get;
+            set;
+        }
+
+        /// <summary>
+        /// Gets or sets the Postcode of the entity.
+        /// </summary>
+        public string Postcode
+        {
+            get;
+            set;
+        }
     }
 }
