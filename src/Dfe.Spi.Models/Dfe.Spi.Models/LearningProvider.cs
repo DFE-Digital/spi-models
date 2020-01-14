@@ -28,7 +28,7 @@
         /// <summary>
         /// Gets or sets the URN of the entity.
         /// </summary>
-        public string Urn
+        public long Urn
         {
             get;
             set;
@@ -37,7 +37,7 @@
         /// <summary>
         /// Gets or sets the UKPRN of the entity.
         /// </summary>
-        public string Ukprn
+        public long Ukprn
         {
             get;
             set;
