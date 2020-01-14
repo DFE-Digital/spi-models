@@ -46,7 +46,7 @@
         /// <summary>
         /// Gets or sets the Postcode of the entity.
         /// </summary>
-        public long Postcode
+        public string Postcode
         {
             get;
             set;
