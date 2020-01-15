@@ -5,7 +5,7 @@
     /// <summary>
     /// Abstract base class for all models in the library.
     /// </summary>
-    public class ModelsBase : MeaningfulBase
+    public abstract class ModelsBase : MeaningfulBase
     {
         /// <summary>
         /// Gets or sets the name of the entity.
