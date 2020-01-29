@@ -1,4 +1,6 @@
-﻿namespace Dfe.Spi.Models
+﻿using System;
+
+namespace Dfe.Spi.Models
 {
     using System.Collections.Generic;
 
@@ -47,6 +49,51 @@
         /// Gets or sets the Postcode of the entity.
         /// </summary>
         public string Postcode
+        {
+            get;
+            set;
+        }
+
+        /// <summary>
+        /// Gets or sets the Status of the entity.
+        /// </summary>
+        public string Status
+        {
+            get;
+            set;
+        }
+
+        /// <summary>
+        /// Gets or sets the Type of the entity.
+        /// </summary>
+        public string Type
+        {
+            get;
+            set;
+        }
+
+        /// <summary>
+        /// Gets or sets the SubType of the entity.
+        /// </summary>
+        public string SubType
+        {
+            get;
+            set;
+        }
+
+        /// <summary>
+        /// Gets or sets the OpenDate of the entity.
+        /// </summary>
+        public DateTime OpenDate
+        {
+            get;
+            set;
+        }
+
+        /// <summary>
+        /// Gets or sets the CloseDate of the entity.
+        /// </summary>
+        public DateTime CloseDate
         {
             get;
             set;
