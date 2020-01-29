@@ -51,11 +51,11 @@
         /// <summary>
         /// Gets or sets the OpenDate of the entity.
         /// </summary>
-        public DateTime OpenDate { get; set; }
+        public DateTime? OpenDate { get; set; }
 
         /// <summary>
         /// Gets or sets the CloseDate of the entity.
         /// </summary>
-        public DateTime CloseDate { get; set; }
+        public DateTime? CloseDate { get; set; }
     }
 }
