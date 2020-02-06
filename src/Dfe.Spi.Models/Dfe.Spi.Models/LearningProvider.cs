@@ -18,6 +18,7 @@
         /// </summary>
         public string LegalName { get; set; }
 
+        
         /// <summary>
         /// Gets or sets the URN of the entity.
         /// </summary>
@@ -27,6 +28,43 @@
         /// Gets or sets the UKPRN of the entity.
         /// </summary>
         public long? Ukprn { get; set; }
+
+        /// <summary>
+        /// Gets or sets the UPRN of the entity.
+        /// </summary>
+        public string Uprn { get; set; }
+
+        /// <summary>
+        /// Gets or sets the Companies House number of the entity.
+        /// </summary>
+        public string CompaniesHouseNumber { get; set; }
+
+        /// <summary>
+        /// Gets or sets the Charities Commission number of the entity.
+        /// </summary>
+        public string CharitiesCommissionNumber { get; set; }
+
+        /// <summary>
+        /// Gets or sets the Academy Trust code of the entity.
+        /// </summary>
+        public string AcademyTrustCode { get; set; }
+
+        /// <summary>
+        /// Gets or sets the DfE number of the entity.
+        /// </summary>
+        public string DfeNumber { get; set; }
+
+        /// <summary>
+        /// Gets or sets the establishment number of the entity.
+        /// </summary>
+        public string EstablishmentNumber { get; set; }
+
+        /// <summary>
+        /// Gets or sets the previous establishment number of the entity.
+        /// </summary>
+        public string PreviousEstablishmentNumber { get; set; }
+        
+        
 
         /// <summary>
         /// Gets or sets the Postcode of the entity.
