@@ -44,9 +44,24 @@
         public IEnumerable<Governor> Governors { get; set; }
 
         /// <summary>
+        /// Gets or sets the id.
+        /// </summary>
+        public string Id { get; set; }
+
+        /// <summary>
         /// Gets or sets the legal name of the entity.
         /// </summary>
         public string LegalName { get; set; }
+
+        /// <summary>
+        /// Gets or sets the local authority.
+        /// </summary>
+        public string LocalAuthority { get; set; }
+
+        /// <summary>
+        /// Gets or sets the management group type.
+        /// </summary>
+        public string ManagementGroupType { get; set;  }
 
         /// <summary>
         /// Gets or sets the OpenDate of the entity.
