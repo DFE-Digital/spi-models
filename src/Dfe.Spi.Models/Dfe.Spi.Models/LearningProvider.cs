@@ -36,7 +36,7 @@
         /// <summary>
         /// Gets or sets the establishment number of the entity.
         /// </summary>
-        public string EstablishmentNumber { get; set; }
+        public long? EstablishmentNumber { get; set; }
 
         /// <summary>
         /// Gets or sets a set of <see cref="Governor" /> instances.
@@ -76,7 +76,7 @@
         /// <summary>
         /// Gets or sets the previous establishment number of the entity.
         /// </summary>
-        public string PreviousEstablishmentNumber { get; set; }
+        public long? PreviousEstablishmentNumber { get; set; }
 
         /// <summary>
         /// Gets or sets the Status of the entity.
