@@ -89,7 +89,7 @@
         /// Gets or sets the <c>Easting</c> value.
         /// TODO: Review name.
         /// </summary>
-        public string Easting { get; set; }
+        public long? Easting { get; set; }
 
         /// <summary>
         /// Gets or sets the establishment number of the entity.
@@ -175,7 +175,7 @@
         /// Gets or sets the <c>Northing</c> value.
         /// TODO: Review name.
         /// </summary>
-        public string Northing { get; set; }
+        public long? Northing { get; set; }
 
         /// <summary>
         /// Gets or sets Ofsted's last inspection.
@@ -200,7 +200,7 @@
         /// <summary>
         /// Gets or sets the percentage of pupils receiving free school meals.
         /// </summary>
-        public string PercentageOfPupilsReceivingFreeSchoolMeals { get; set; }
+        public decimal? PercentageOfPupilsReceivingFreeSchoolMeals { get; set; }
 
         /// <summary>
         /// Gets or sets the phase of education.
