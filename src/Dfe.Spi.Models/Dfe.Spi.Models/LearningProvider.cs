@@ -113,10 +113,9 @@
         public string GenderOfEntry { get; set; }
 
         /// <summary>
-        /// Gets or sets the <c>GORRegion</c>.
-        /// TODO: Review name.
+        /// Gets or sets the Government Office Region.
         /// </summary>
-        public string GorRegion { get; set; }
+        public string GovernmentOfficeRegion { get; set; }
 
         /// <summary>
         /// Gets or sets a set of <see cref="Governor" /> instances.
@@ -124,10 +123,10 @@
         public IEnumerable<Governor> Governors { get; set; }
 
         /// <summary>
-        /// Gets or sets the <c>GSSLACode</c> value.
-        /// TODO: Review name.
+        /// Gets or sets the Government Statistical Service Local Authority
+        /// Code.
         /// </summary>
-        public string GsslaCode { get; set; }
+        public string GovernmentStatisticalServiceLocalAuthorityCode { get; set; }
 
         /// <summary>
         /// Gets or sets the id.
@@ -180,7 +179,7 @@
         /// <summary>
         /// Gets or sets Ofsted's last inspection.
         /// </summary>
-        public string OfstedLastInspection { get; set; }
+        public DateTime? OfstedLastInspection { get; set; }
 
         /// <summary>
         /// Gets or sets the Ofsted rating.
@@ -228,10 +227,9 @@
         public string PreviousLocalAuthorityName { get; set; }
 
         /// <summary>
-        /// Gets or sets the <c>RSCRegion</c> value.
-        /// TODO: Review name.
+        /// Gets or sets the regional schools commisioner region.
         /// </summary>
-        public string RscRegion { get; set; }
+        public string RegionalSchoolsCommisionerRegion { get; set; }
 
         /// <summary>
         /// Gets or sets the <c>Section41Approved</c> value.
@@ -247,15 +245,13 @@
 
         /// <summary>
         /// Gets or sets the statutory low age.
-        /// TODO: Review name.
         /// </summary>
-        public string StatutoryLowAge { get; set; }
+        public long? LowestAge { get; set; }
 
         /// <summary>
         /// Gets or sets the statutory high age.
-        /// TODO: Review name.
         /// </summary>
-        public string StatutoryHighAge { get; set; }
+        public long? HighestAge { get; set; }
 
         /// <summary>
         /// Gets or sets the SubType of the entity.
@@ -263,10 +259,9 @@
         public string SubType { get; set; }
 
         /// <summary>
-        /// Gets or sets the <c>SixthForm</c> value.
-        /// TODO: Review name.
+        /// Gets or sets the sixth form status.
         /// </summary>
-        public string SixthForm { get; set; }
+        public string SixthFormStatus { get; set; }
 
         /// <summary>
         /// Gets or sets the <c>TeenMothers</c> value.
