@@ -118,6 +118,16 @@
         public string GovernmentOfficeRegion { get; set; }
 
         /// <summary>
+        /// Gets or sets the Middle Layer Super Output Area (or "MSOA").
+        /// </summary>
+        public string MiddleLayerSuperOutputArea { get; set; }
+
+        /// <summary>
+        /// Gets or sets the Lower Layer Super Output Area (or "LSOA").
+        /// </summary>
+        public string LowerLayerSuperOutputArea { get; set; }
+
+        /// <summary>
         /// Gets or sets a set of <see cref="Governor" /> instances.
         /// </summary>
         public IEnumerable<Governor> Governors { get; set; }
@@ -172,9 +182,13 @@
 
         /// <summary>
         /// Gets or sets the <c>Northing</c> value.
-        /// TODO: Review name.
         /// </summary>
         public long? Northing { get; set; }
+
+        /// <summary>
+        /// Gets or sets the Parliamentary Constituency.
+        /// </summary>
+        public string ParliamentaryConstituency { get; set; }
 
         /// <summary>
         /// Gets or sets Ofsted's last inspection.
@@ -308,6 +322,11 @@
         public string UrbanRuralName { get; set; }
 
         /// <summary>
+        /// Gets or sets the Federations.
+        /// </summary>
+        public string Federations { get; set; }
+
+        /// <summary>
         /// Gets or sets the URN of the entity.
         /// </summary>
         public long? Urn { get; set; }
@@ -316,5 +335,70 @@
         /// Gets or sets the website.
         /// </summary>
         public string Website { get; set; }
+
+        /// <summary>
+        /// Gets or sets the telephone number.
+        /// </summary>
+        public string TelephoneNumber { get; set; }
+
+        /// <summary>
+        /// Gets or sets the contact email.
+        /// </summary>
+        public string ContactEmail { get; set; }
+
+        /// <summary>
+        /// Gets or sets the first address line.
+        /// </summary>
+        public string AddressLine1 { get; set; }
+
+        /// <summary>
+        /// Gets or sets the second address line.
+        /// </summary>
+        public string AddressLine2 { get; set; }
+
+        /// <summary>
+        /// Gets or sets the third address line.
+        /// </summary>
+        public string AddressLine3 { get; set; }
+
+        /// <summary>
+        /// Gets or sets the town.
+        /// </summary>
+        public string Town { get; set; }
+
+        /// <summary>
+        /// Gets or sets the county.
+        /// </summary>
+        public string County { get; set; }
+
+        /// <summary>
+        /// Gets or sets the school capacity.
+        /// </summary>
+        public long? SchoolCapacity { get; set; }
+
+        /// <summary>
+        /// Gets or sets the number of pupils.
+        /// </summary>
+        public long? NumberOfPupils { get; set; }
+
+        /// <summary>
+        /// Gets or sets the number of boys.
+        /// </summary>
+        public long? NumberOfBoys { get; set; }
+
+        /// <summary>
+        /// Gets or sets the number of girls.
+        /// </summary>
+        public long? NumberOfGirls { get; set; }
+
+        /// <summary>
+        /// Gets or sets the resourced provision capacity.
+        /// </summary>
+        public long? ResourcedProvisionCapacity { get; set; }
+
+        /// <summary>
+        /// Gets or sets the resourced provision number on roll.
+        /// </summary>
+        public long? ResourcedProvisionNumberOnRoll { get; set; }
     }
 }
