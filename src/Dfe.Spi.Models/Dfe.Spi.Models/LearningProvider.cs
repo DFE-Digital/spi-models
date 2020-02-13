@@ -113,10 +113,19 @@
         public string GenderOfEntry { get; set; }
 
         /// <summary>
-        /// Gets or sets the <c>GORRegion</c>.
-        /// TODO: Review name.
+        /// Gets or sets the Government Office Region.
         /// </summary>
-        public string GorRegion { get; set; }
+        public string GovernmentOfficeRegion { get; set; }
+
+        /// <summary>
+        /// Gets or sets the Middle Layer Super Output Area (or "MSOA").
+        /// </summary>
+        public string MiddleLayerSuperOutputArea { get; set; }
+
+        /// <summary>
+        /// Gets or sets the Lower Layer Super Output Area (or "LSOA").
+        /// </summary>
+        public string LowerLayerSuperOutputArea { get; set; }
 
         /// <summary>
         /// Gets or sets a set of <see cref="Governor" /> instances.
@@ -124,10 +133,10 @@
         public IEnumerable<Governor> Governors { get; set; }
 
         /// <summary>
-        /// Gets or sets the <c>GSSLACode</c> value.
-        /// TODO: Review name.
+        /// Gets or sets the Government Statistical Service Local Authority
+        /// Code.
         /// </summary>
-        public string GsslaCode { get; set; }
+        public string GovernmentStatisticalServiceLocalAuthorityCode { get; set; }
 
         /// <summary>
         /// Gets or sets the id.
@@ -173,14 +182,18 @@
 
         /// <summary>
         /// Gets or sets the <c>Northing</c> value.
-        /// TODO: Review name.
         /// </summary>
         public long? Northing { get; set; }
 
         /// <summary>
+        /// Gets or sets the Parliamentary Constituency.
+        /// </summary>
+        public string ParliamentaryConstituency { get; set; }
+
+        /// <summary>
         /// Gets or sets Ofsted's last inspection.
         /// </summary>
-        public string OfstedLastInspection { get; set; }
+        public DateTime? OfstedLastInspection { get; set; }
 
         /// <summary>
         /// Gets or sets the Ofsted rating.
@@ -228,10 +241,9 @@
         public string PreviousLocalAuthorityName { get; set; }
 
         /// <summary>
-        /// Gets or sets the <c>RSCRegion</c> value.
-        /// TODO: Review name.
+        /// Gets or sets the regional schools commissioner region.
         /// </summary>
-        public string RscRegion { get; set; }
+        public string RegionalSchoolsCommissionerRegion { get; set; }
 
         /// <summary>
         /// Gets or sets the <c>Section41Approved</c> value.
@@ -247,15 +259,13 @@
 
         /// <summary>
         /// Gets or sets the statutory low age.
-        /// TODO: Review name.
         /// </summary>
-        public string StatutoryLowAge { get; set; }
+        public long? LowestAge { get; set; }
 
         /// <summary>
         /// Gets or sets the statutory high age.
-        /// TODO: Review name.
         /// </summary>
-        public string StatutoryHighAge { get; set; }
+        public long? HighestAge { get; set; }
 
         /// <summary>
         /// Gets or sets the SubType of the entity.
@@ -263,10 +273,9 @@
         public string SubType { get; set; }
 
         /// <summary>
-        /// Gets or sets the <c>SixthForm</c> value.
-        /// TODO: Review name.
+        /// Gets or sets the sixth form status.
         /// </summary>
-        public string SixthForm { get; set; }
+        public string SixthFormStatus { get; set; }
 
         /// <summary>
         /// Gets or sets the <c>TeenMothers</c> value.
@@ -313,6 +322,11 @@
         public string UrbanRuralName { get; set; }
 
         /// <summary>
+        /// Gets or sets the Federations.
+        /// </summary>
+        public string Federations { get; set; }
+
+        /// <summary>
         /// Gets or sets the URN of the entity.
         /// </summary>
         public long? Urn { get; set; }
@@ -321,5 +335,70 @@
         /// Gets or sets the website.
         /// </summary>
         public string Website { get; set; }
+
+        /// <summary>
+        /// Gets or sets the telephone number.
+        /// </summary>
+        public string TelephoneNumber { get; set; }
+
+        /// <summary>
+        /// Gets or sets the contact email.
+        /// </summary>
+        public string ContactEmail { get; set; }
+
+        /// <summary>
+        /// Gets or sets the first address line.
+        /// </summary>
+        public string AddressLine1 { get; set; }
+
+        /// <summary>
+        /// Gets or sets the second address line.
+        /// </summary>
+        public string AddressLine2 { get; set; }
+
+        /// <summary>
+        /// Gets or sets the third address line.
+        /// </summary>
+        public string AddressLine3 { get; set; }
+
+        /// <summary>
+        /// Gets or sets the town.
+        /// </summary>
+        public string Town { get; set; }
+
+        /// <summary>
+        /// Gets or sets the county.
+        /// </summary>
+        public string County { get; set; }
+
+        /// <summary>
+        /// Gets or sets the school capacity.
+        /// </summary>
+        public long? SchoolCapacity { get; set; }
+
+        /// <summary>
+        /// Gets or sets the number of pupils.
+        /// </summary>
+        public long? NumberOfPupils { get; set; }
+
+        /// <summary>
+        /// Gets or sets the number of boys.
+        /// </summary>
+        public long? NumberOfBoys { get; set; }
+
+        /// <summary>
+        /// Gets or sets the number of girls.
+        /// </summary>
+        public long? NumberOfGirls { get; set; }
+
+        /// <summary>
+        /// Gets or sets the resourced provision capacity.
+        /// </summary>
+        public long? ResourcedProvisionCapacity { get; set; }
+
+        /// <summary>
+        /// Gets or sets the resourced provision number on roll.
+        /// </summary>
+        public long? ResourcedProvisionNumberOnRoll { get; set; }
     }
 }
