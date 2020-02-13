@@ -241,9 +241,9 @@
         public string PreviousLocalAuthorityName { get; set; }
 
         /// <summary>
-        /// Gets or sets the regional schools commisioner region.
+        /// Gets or sets the regional schools commissioner region.
         /// </summary>
-        public string RegionalSchoolsCommisionerRegion { get; set; }
+        public string RegionalSchoolsCommissionerRegion { get; set; }
 
         /// <summary>
         /// Gets or sets the <c>Section41Approved</c> value.
