@@ -1,22 +1,40 @@
 trigger:
-- master
+  batch: true
+  branches:
+    include:
+      - "*"
 
-pool:
-  vmImage: 'ubuntu-latest'
+variables:
+  BuildConfiguration: 'Release'
 
 steps:
+  - task: NuGetToolInstaller@1
+    displayName: 'Use NuGet 4.9.1'
+    inputs:
+      versionSpec: '4.9.1'
+
+  - task: NuGetCommand@2
+    displayName: 'Restore Public NuGet Packages'
+    inputs:
+      command: 'restore'
+      restoreSolution: '**/*.sln'
+      feedsToUse: 'select'
+
   - task: DotNetCoreCLI@2
     displayName: 'Build Models Library'
     inputs:
       command: 'build'
       projects: 'src/Dfe.Spi.Models/Dfe.Spi.Models/Dfe.Spi.Models.csproj'
-      arguments: '--configuration Release --output $(Build.BinariesDirectory)'
-  - task: CopyFiles@2
-    displayName: 'Copy NuGet Package to Artifacts Staging'
+      arguments: '--configuration $(BuildConfiguration) --no-restore'
+
+  - task: DotNetCoreCLI@2
+    displayName: 'Pack Models Library'
     inputs:
-      SourceFolder: '$(Build.BinariesDirectory)'
-      Contents: 'Dfe.Spi.Models.*.nupkg'
-      TargetFolder: '$(Build.ArtifactStagingDirectory)'
+      command: 'pack'
+      packagesToPack: 'src/Dfe.Spi.Models/Dfe.Spi.Models/Dfe.Spi.Models.csproj'
+      nobuild: true
+      versioningScheme: 'off'
+  
   - task: PublishBuildArtifacts@1
     displayName: 'Publish Artifacts'
     inputs:
