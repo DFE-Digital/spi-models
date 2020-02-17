@@ -6,7 +6,7 @@
     /// <summary>
     /// A learning provider.
     /// </summary>
-    public class LearningProvider : ModelsBase
+    public class LearningProvider : NamedBase
     {
         /// <summary>
         /// Gets or sets the Academy Trust code of the entity.

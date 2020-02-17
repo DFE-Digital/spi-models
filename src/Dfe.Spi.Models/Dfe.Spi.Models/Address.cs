@@ -3,7 +3,7 @@
     /// <summary>
     /// An address.
     /// </summary>
-    public class Address
+    public class Address : ModelsBase
     {
         /// <summary>
         /// Gets or sets the first address line.
