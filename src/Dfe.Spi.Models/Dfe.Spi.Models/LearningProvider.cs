@@ -347,29 +347,9 @@
         public string ContactEmail { get; set; }
 
         /// <summary>
-        /// Gets or sets the first address line.
+        /// Gets or sets the address.
         /// </summary>
-        public string AddressLine1 { get; set; }
-
-        /// <summary>
-        /// Gets or sets the second address line.
-        /// </summary>
-        public string AddressLine2 { get; set; }
-
-        /// <summary>
-        /// Gets or sets the third address line.
-        /// </summary>
-        public string AddressLine3 { get; set; }
-
-        /// <summary>
-        /// Gets or sets the town.
-        /// </summary>
-        public string Town { get; set; }
-
-        /// <summary>
-        /// Gets or sets the county.
-        /// </summary>
-        public string County { get; set; }
+        public Address Address { get; set; }
 
         /// <summary>
         /// Gets or sets the school capacity.
