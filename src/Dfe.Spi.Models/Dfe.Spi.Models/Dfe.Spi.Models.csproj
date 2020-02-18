@@ -3,12 +3,13 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <DocumentationFile>Dfe.Spi.Models.xml</DocumentationFile>
-    <Version>1.0.14</Version>
+    <Version>1.0.15</Version>
   </PropertyGroup>
 
   <ItemGroup>
     <!-- Other -->
     <PackageReference Include="Meridian.MeaningfulToString" Version="1.0.4" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
     
     <!-- Development/Non-Runtime -->
     <PackageReference Include="StyleCop.Analyzers" Version="1.1.118" PrivateAssets="All" />

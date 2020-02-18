@@ -2,6 +2,7 @@
 {
     using System.Collections.Generic;
     using System.Diagnostics.CodeAnalysis;
+    using Newtonsoft.Json;
 
     /// <summary>
     /// Base class for which all top-level entities to derive from.
@@ -23,6 +24,7 @@
             "Microsoft.Naming",
             "CA1707",
             Justification = "This is a special case/property, stylised as such for (de)serialisation purposes.")]
+        [JsonProperty("_lineage", Order = -2)]
         public Dictionary<string, LineageEntry> _Lineage { get; set; }
 
         /// <summary>
