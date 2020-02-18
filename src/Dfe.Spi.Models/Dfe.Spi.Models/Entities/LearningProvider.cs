@@ -1,4 +1,4 @@
-﻿namespace Dfe.Spi.Models
+﻿namespace Dfe.Spi.Models.Entities
 {
     using System;
     using System.Collections.Generic;
@@ -6,7 +6,7 @@
     /// <summary>
     /// A learning provider.
     /// </summary>
-    public class LearningProvider : ModelsBase
+    public class LearningProvider : EntityBase
     {
         /// <summary>
         /// Gets or sets the Academy Trust code of the entity.
@@ -347,29 +347,9 @@
         public string ContactEmail { get; set; }
 
         /// <summary>
-        /// Gets or sets the first address line.
+        /// Gets or sets the <see cref="Address" />.
         /// </summary>
-        public string AddressLine1 { get; set; }
-
-        /// <summary>
-        /// Gets or sets the second address line.
-        /// </summary>
-        public string AddressLine2 { get; set; }
-
-        /// <summary>
-        /// Gets or sets the third address line.
-        /// </summary>
-        public string AddressLine3 { get; set; }
-
-        /// <summary>
-        /// Gets or sets the town.
-        /// </summary>
-        public string Town { get; set; }
-
-        /// <summary>
-        /// Gets or sets the county.
-        /// </summary>
-        public string County { get; set; }
+        public Address Address { get; set; }
 
         /// <summary>
         /// Gets or sets the school capacity.
