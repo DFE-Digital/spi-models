@@ -380,5 +380,10 @@
         /// Gets or sets the resourced provision number on roll.
         /// </summary>
         public long? ResourcedProvisionNumberOnRoll { get; set; }
+
+        /// <summary>
+        /// Gets or sets the management group.
+        /// </summary>
+        public ManagementGroup ManagementGroup { get; set; }
     }
 }
