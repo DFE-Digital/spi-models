@@ -3,7 +3,7 @@ namespace Dfe.Spi.Models
     /// <summary>
     /// The result of an aggregation
     /// </summary>
-    public class Aggregation
+    public class Aggregation : ModelsBase
     {
         /// <summary>
         /// The name of the aggregation
