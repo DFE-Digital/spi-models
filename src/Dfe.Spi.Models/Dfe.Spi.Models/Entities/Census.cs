@@ -1,19 +1,19 @@
-using System.Diagnostics.CodeAnalysis;
-using Newtonsoft.Json;
-
 namespace Dfe.Spi.Models.Entities
 {
+    using System.Diagnostics.CodeAnalysis;
+    using Newtonsoft.Json;
+
     /// <summary>
-    /// A Census
+    /// A census.
     /// </summary>
     public class Census : EntityBase
-    { 
+    {
         /// <summary>
         /// Gets or sets the lineage for the entity.
         /// </summary>
         [SuppressMessage(
-            "Microsoft.Usage",
-            "CA2227",
+            "Microsoft.Performance",
+            "CA1819",
             Justification = "This is a DTO.")]
         [SuppressMessage(
             "Naming Rules",
