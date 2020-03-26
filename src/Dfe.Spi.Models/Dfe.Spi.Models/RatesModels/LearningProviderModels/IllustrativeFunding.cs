@@ -1,4 +1,4 @@
-﻿namespace Dfe.Spi.Models.RatesModels
+﻿namespace Dfe.Spi.Models.RatesModels.LearningProviderModels
 {
     /// <summary>
     /// Represents illustrative funding.

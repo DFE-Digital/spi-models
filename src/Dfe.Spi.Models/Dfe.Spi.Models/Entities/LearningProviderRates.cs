@@ -1,15 +1,15 @@
 ﻿namespace Dfe.Spi.Models.Entities
 {
-    using Dfe.Spi.Models.RatesModels;
+    using Dfe.Spi.Models.RatesModels.LearningProviderModels;
 
     /// <summary>
-    /// Contains information about rates.
+    /// Contains information about rates for learning providers in particular.
     /// </summary>
-    public class Rates : EntityBase
+    public class LearningProviderRates : EntityBase
     {
         /// <summary>
         /// Gets or sets an instance of
-        /// <see cref="RatesModels.BaselineFunding" />.
+        /// <see cref="RatesModels.LearningProviderModels.BaselineFunding" />.
         /// </summary>
         public BaselineFunding BaselineFunding
         {
@@ -19,7 +19,7 @@
 
         /// <summary>
         /// Gets or sets an instance of
-        /// <see cref="RatesModels.IllustrativeFunding" />.
+        /// <see cref="RatesModels.LearningProviderModels.IllustrativeFunding" />.
         /// </summary>
         public IllustrativeFunding IllustrativeFunding
         {
@@ -29,7 +29,7 @@
 
         /// <summary>
         /// Gets or sets an instanace of
-        /// <see cref="RatesModels.NotionalFunding" />.
+        /// <see cref="RatesModels.LearningProviderModels.NotionalFunding" />.
         /// </summary>
         public NotionalFunding NotionalFunding
         {
