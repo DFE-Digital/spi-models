@@ -1,9 +1,9 @@
-﻿namespace Dfe.Spi.Models.RatesModels
+﻿namespace Dfe.Spi.Models.RatesModels.LearningProviderModels
 {
     /// <summary>
     /// Represents baseline funding.
     /// </summary>
-    public class BaselineFunding : ModelsBase
+    public class BaselineFunding : LearningProviderModelsBase
     {
         /// <summary>
         /// Gets or sets the <c>BaselineFunding</c> value.

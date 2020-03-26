@@ -2,9 +2,10 @@
 {
     /// <summary>
     /// Base class for all models in the
-    /// <see cref="Dfe.Spi.Models.RatesModels" /> namespace.
+    /// <see cref="Dfe.Spi.Models.RatesModels" />
+    /// namespace.
     /// </summary>
-    public abstract class ModelsBase : Models.ModelsBase
+    public abstract class RatesModelsBase : ModelsBase
     {
         // Nothing for now.
     }
