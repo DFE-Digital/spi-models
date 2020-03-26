@@ -3,7 +3,7 @@
     /// <summary>
     /// Represents illustrative funding.
     /// </summary>
-    public class IllustrativeFunding
+    public class IllustrativeFunding : LearningProviderModelsBase
     {
         /// <summary>
         /// Gets or sets the <c>TotalNffFunding</c> value.

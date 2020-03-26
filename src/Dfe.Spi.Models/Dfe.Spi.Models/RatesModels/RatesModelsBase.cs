@@ -5,7 +5,7 @@
     /// <see cref="Dfe.Spi.Models.RatesModels" />
     /// namespace.
     /// </summary>
-    public abstract class ModelsBase : Models.ModelsBase
+    public abstract class RatesModelsBase : ModelsBase
     {
         // Nothing for now.
     }

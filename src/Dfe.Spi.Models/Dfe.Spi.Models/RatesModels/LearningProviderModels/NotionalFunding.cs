@@ -3,7 +3,7 @@
     /// <summary>
     /// Represents notional funding.
     /// </summary>
-    public class NotionalFunding
+    public class NotionalFunding : LearningProviderModelsBase
     {
         /// <summary>
         /// Gets or sets the <c>TotalNffFunding</c> value.
