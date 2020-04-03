@@ -19,9 +19,10 @@
         public DateTime? ReadDate { get; set; }
 
         /// <summary>
-        /// Gets or sets the originally used request identifier to the adapter.
+        /// Gets or sets the originally used request identifier to the adapter
+        /// for the entity.
         /// </summary>
-        public string RequestId { get; set; }
+        public string EntityId { get; set; }
 
         /// <summary>
         /// Gets or sets an alternative value, if applicable.
