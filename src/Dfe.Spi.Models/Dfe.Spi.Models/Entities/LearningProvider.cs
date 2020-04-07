@@ -96,7 +96,7 @@
         /// <summary>
         /// Gets or sets the type code.
         /// </summary>
-        public string TypeCode { get; set; }
+        public string Type { get; set; }
 
         /// <summary>
         /// Gets or sets the type name.
@@ -106,7 +106,7 @@
         /// <summary>
         /// Gets or sets the SubType code.
         /// </summary>
-        public string SubTypeCode { get; set; }
+        public string SubType { get; set; }
 
         /// <summary>
         /// Gets or sets the SubType name.
