@@ -352,12 +352,12 @@
         /// <summary>
         /// Gets or sets the trust code of the entity.
         /// </summary>
-        public string TrustCode { get; set; }
+        public string AcademyTrustCode { get; set; }
 
         /// <summary>
         /// Gets or sets the trust name of the entity.
         /// </summary>
-        public string TrustName { get; set; }
+        public string AcademyTrustName { get; set; }
 
         /// <summary>
         /// Gets or sets the UKPRN of the entity.
