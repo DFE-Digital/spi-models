@@ -389,7 +389,10 @@
         /// </summary>
         public ManagementGroup ManagementGroup { get; set; }
 
-
+        /// <summary>
+        /// Gets or sets the Companies House number of the entity.
+        /// </summary>
+        public string CompaniesHouseNumber { get; set; }
 
         /// <summary>
         /// Gets or sets the Charities Commission number of the entity.
@@ -397,29 +400,19 @@
         public string CharitiesCommissionNumber { get; set; }
 
         /// <summary>
-        /// Gets or sets the Companies House number of the entity.
-        /// </summary>
-        public string CompaniesHouseNumber { get; set; }
-
-        /// <summary>
         /// Gets or sets the DfE number of the entity.
         /// </summary>
         public string DfeNumber { get; set; }
 
         /// <summary>
-        /// Gets or sets the Lower Layer Super Output Area (or "LSOA").
+        /// Gets or sets the Lower Layer Super Output Area (or "LSOA") code.
         /// </summary>
-        public string LowerLayerSuperOutputArea { get; set; }
+        public string LowerLayerSuperOutputAreaCode { get; set; }
 
         /// <summary>
-        /// Gets or sets a set of <see cref="Governor" /> instances.
+        /// Gets or sets the Lower Layer Super Output Area (or "LSOA") name.
         /// </summary>
-        public IEnumerable<Governor> Governors { get; set; }
-
-        /// <summary>
-        /// Gets or sets the id.
-        /// </summary>
-        public string Id { get; set; }
+        public string LowerLayerSuperOutputAreaName { get; set; }
 
         /// <summary>
         /// Gets or sets the date of inspection.
@@ -439,23 +432,33 @@
         public string LegalName { get; set; }
 
         /// <summary>
-        /// Gets or sets the management group type.
-        /// </summary>
-        public string ManagementGroupType { get; set; }
-
-        /// <summary>
-        /// Gets or sets the Federations.
-        /// </summary>
-        public string Federations { get; set; }
-
-        /// <summary>
         /// Gets or sets the contact email.
         /// </summary>
         public string ContactEmail { get; set; }
 
         /// <summary>
-        /// Gets or sets the <see cref="Address" />.
+        /// Gets or sets the first address line.
         /// </summary>
-        public Address Address { get; set; }
+        public string AddressLine1 { get; set; }
+
+        /// <summary>
+        /// Gets or sets the second address line.
+        /// </summary>
+        public string AddressLine2 { get; set; }
+
+        /// <summary>
+        /// Gets or sets the third address line.
+        /// </summary>
+        public string AddressLine3 { get; set; }
+
+        /// <summary>
+        /// Gets or sets the town.
+        /// </summary>
+        public string Town { get; set; }
+
+        /// <summary>
+        /// Gets or sets the county.
+        /// </summary>
+        public string County { get; set; }
     }
 }
