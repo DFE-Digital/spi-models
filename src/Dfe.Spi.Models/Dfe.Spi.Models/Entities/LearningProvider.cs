@@ -389,7 +389,7 @@
         /// Gets or sets the <c>Section41ApprovedName</c> value.
         /// Example: "Not applicable".
         /// </summary>
-        public long? Section41ApprovedName { get; set; }
+        public string Section41ApprovedName { get; set; }
 
         /// <summary>
         /// Gets or sets the special classes code.
@@ -574,7 +574,7 @@
 
         /// <summary>
         /// Gets or sets the county.
-        /// Example: NULL
+        /// Example: NULL, "Leicestershire".
         /// </summary>
         public string County { get; set; }
     }
