@@ -24,5 +24,46 @@ namespace Dfe.Spi.Models.Entities
         /// Gets or sets the Companies House number of the entity.
         /// </summary>
         public string CompaniesHouseNumber { get; set; }
+
+        /// <summary>
+        /// Gets or sets the UKPRN of the entity.
+        /// </summary>
+        public long? Ukprn { get; set; }
+
+        /// <summary>
+        /// Gets or sets the first address line.
+        /// Example: "Anstey Lane".
+        /// </summary>
+        public string AddressLine1 { get; set; }
+
+        /// <summary>
+        /// Gets or sets the second address line.
+        /// Example: "Thurcaston".
+        /// </summary>
+        public string AddressLine2 { get; set; }
+
+        /// <summary>
+        /// Gets or sets the third address line.
+        /// Example: NULL.
+        /// </summary>
+        public string AddressLine3 { get; set; }
+
+        /// <summary>
+        /// Gets or sets the town.
+        /// Example: "Leicester".
+        /// </summary>
+        public string Town { get; set; }
+
+        /// <summary>
+        /// Gets or sets the county.
+        /// Example: NULL, "Leicestershire".
+        /// </summary>
+        public string County { get; set; }
+
+        /// <summary>
+        /// Gets or sets the Postcode of the entity.
+        /// Example: "LE12 8DX".
+        /// </summary>
+        public string Postcode { get; set; }
     }
 }
